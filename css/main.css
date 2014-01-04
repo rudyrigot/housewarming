@@ -97,9 +97,19 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-
-
-
+@font-face {
+    font-family: 'rieslingregular';
+    src: url('../fonts/riesling-webfont.eot');
+    src: url('../fonts/riesling-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/riesling-webfont.woff') format('woff'),
+         url('../fonts/riesling-webfont.ttf') format('truetype'),
+         url('../fonts/riesling-webfont.svg#rieslingregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    font-family: 'rieslingregular';
+}
 
 
 
