@@ -164,7 +164,7 @@ h1,h2,h3,h4,p {margin:0;}
 
 @media (max-width: 500px) {
     body {
-        font-size: 1.5em;
+        font-size: 1.8em;
     }
     #outer-container {
         margin: 30px auto;

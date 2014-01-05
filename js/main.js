@@ -7,7 +7,7 @@ $("#secretcode").wScratchPad({
     color: '#a5a5a5',
     size: 20
 })
-$('#secretcode-wrapper').mouseover(
+$('#secretcode-wrapper').bind("mouseover touchstart",
 	function() {
     	if (!wasScratched) {
     		$('#scratch').hide();
@@ -15,3 +15,4 @@ $('#secretcode-wrapper').mouseover(
     	}
     }
 );
+
