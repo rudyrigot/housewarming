@@ -109,7 +109,7 @@ textarea {
 }
 body {
     font-family: 'rieslingregular';
-    color: #c4c4c4;
+    color: #e4e4e4;
     background-color: black;
     text-align: center;
     font-size: 2em;
@@ -143,6 +143,23 @@ h1,h2,h3,h4,p {margin:0;}
 #corner-br {
     background: url('../img/br-corner.png') no-repeat right bottom;
     padding: 75px 50px;
+}
+#secretcode-wrapper {
+     display: inline-block;
+     text-align:center;
+}
+#secretcode {
+    margin: 0 auto;
+}
+#scratch {
+    color:black;
+    margin-top: -65px;
+    width: 200px;
+    position: absolute;
+    z-index: 5000;
+    font-style: italic;
+    font-size: 0.8em;
+    pointer-events: none;
 }
 
 @media (max-width: 500px) {
