@@ -161,6 +161,10 @@ h1,h2,h3,h4,p {margin:0;}
     font-size: 0.8em;
     pointer-events: none;
 }
+#address a {
+    color:white;
+    text-decoration: none;
+}
 
 @media (max-width: 500px) {
     body {
